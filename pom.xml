@@ -6,7 +6,15 @@
   <name>EvenOddProjectTest</name>
     <build>
 <finalName>java-jenkins-docker</finalName>
-</build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+      </plugin>
+    </plugins>
+  </build>
+
   <properties>
     <maven.compiler.release>3.5.1</maven.compiler.release>
      <maven.compiler.source>6</maven.compiler.source>
@@ -15,3 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 </project>
+
+
+
+
